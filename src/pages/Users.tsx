@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import {useEffect} from "react";
 import { UserForm } from '../components/UserForm';
 import { UserList } from '../components/UserList';
 import { Loader } from '../components/Loader';

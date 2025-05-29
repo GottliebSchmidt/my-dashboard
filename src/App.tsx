@@ -6,7 +6,7 @@ import { Helmet, HelmetProvider } from 'react-helmet-async';
 export function App() {
     return (
         <HelmetProvider>
-            <MantineProvider withGlobalStyles withNormalizeCSS>
+            <MantineProvider>
                 <Helmet>
                     <title>My Dashboard - Главная</title>
                     <meta name="description" content="Мой дашборд для управления пользователями и данными" />
